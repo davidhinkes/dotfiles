@@ -104,6 +104,6 @@ export EDITOR='subl -w'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-if [[ -f "/etc/bash_completion.d/hgd" ]]; then
-    source "/etc/bash_completion.d/hgd"
+if [[ -f $HOME/.gzshrc ]]; then
+    source $HOME/.gzshrc
 fi
