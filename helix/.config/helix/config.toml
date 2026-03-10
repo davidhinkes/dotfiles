@@ -1,4 +1,8 @@
 theme = "darcula"
 
+[editor]
+bufferline = "always"
+rulers = [80, 120]
+
 [keys.insert]
 j = { j = "normal_mode" }
