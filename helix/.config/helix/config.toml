@@ -6,3 +6,6 @@ rulers = [80, 120]
 
 [keys.insert]
 j = { j = "normal_mode" }
+
+[editor.auto-save]
+focus-lost = true
